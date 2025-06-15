@@ -1,0 +1,2 @@
+# Use environment variable - no fallback for security
+project_id = "${SUPABASE_PROJECT_ID}"

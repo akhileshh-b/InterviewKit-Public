@@ -1,0 +1,47 @@
+# Sensitive Data - Exclude from Public Repository
+src/assets/akhilesh-photo.png
+src/integrations/supabase/
+src/utils/imageEncoder.ts
+src/components/SecurePhoto.tsx
+src/utils/adminConfig.ts
+.env
+.env.local
+.env.production
+.env.development
+supabase/
+
+# Database and Backend
+wrangler.toml
+vercel.json
+
+# Dependencies
+node_modules/
+dist/
+.git/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Build outputs
+build/
+dist/ 
